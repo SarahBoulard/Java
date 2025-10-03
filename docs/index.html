@@ -11,6 +11,11 @@
       compSection.style.display =
       compSection.style.display === 'none' ? 'block' : 'none';
     }
+    function toggleFormation() {
+      const compSection = document.getElementById('Formation');
+      compSection.style.display =
+      compSection.style.display === 'none' ? 'block' : 'none';
+    }
   </script>
 <header>
   <h1>Nom Prénom</h1>
@@ -19,7 +24,7 @@
 </header>
 <main>
   <section>
-    <button onclick="toggleCompetences()">Afficher/Masquer compétences</button>
+    <button onclick="toggleFormation()">Afficher/Masquer compétences</button>
     <section id="Formation">
     <ul>
       <li>BTS SIO – Lycée X</li>
@@ -36,4 +41,5 @@
 </main>
 </body>
 </html>
+
 
